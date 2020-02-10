@@ -1,0 +1,35 @@
+{
+  "name": "design-patterns-javascript",
+  "version": "1.0.0",
+  "description": "Detailed explanation on Design Patterns in JavaScript",
+  "main": "init.js",
+  "scripts": {
+    "start": "node -r esm Singleton.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techiehari/Design-Patterns-JavaScript.git"
+  },
+  "keywords": [
+    "Design",
+    "Patterns",
+    "JavaScript",
+    "ES6",
+    "Examples"
+  ],
+  "author": "Hari Prasad Paidipati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techiehari/Design-Patterns-JavaScript/issues"
+  },
+  "homepage": "https://github.com/techiehari/Design-Patterns-JavaScript#readme",
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/register": "^7.8.3"
+  }
+}
